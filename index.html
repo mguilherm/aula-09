@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,800;1,200&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Exerício #AULA09 | Front End</title>
+  </head>
+
+  <script src="questoes-aula09.js"></script>
+
+  <body>
+    <h1>Exercício #AULA09 | Dev Front End SENAI</h1>
+
+    <div class="questions">
+      <div class="questao">
+        <div class="header">
+          <h2>Questão #01:</h2>
+          <p><em>Somando 2 valores: </em></p>
+          <span>
+            <a
+              href="https://www.urionlinejudge.com.br/repository/UOJ_1001.html"
+              target="_blank"
+              >link da questão</a
+            ></span
+          >
+        </div>
+
+        <div class="dados">
+          <p id="soma">Insira os dois valores a serem somados:</p>
+          <label for="num01">A</label>
+          <input id="num01" name="num01" type="text" />
+          <label for="num02">B</label>
+          <input id="num02" name="num02" type="text" />
+          <input
+            class="Calcular"
+            type="button"
+            value="Calcular"
+            onclick="soma()"
+          />
+        </div>
+      </div>
+
+      <div class="questao">
+        <div class="header">
+          <h2>Questão #02:</h2>
+          <p><em>Calcular o salário de um funcionário</em></p>
+          <span>
+            <a
+              href="https://www.urionlinejudge.com.br/repository/UOJ_1008.html"
+              target="_blank"
+              >link da questão</a
+            ></span
+          >
+        </div>
+
+        <div class="dados">
+          <p id="salario">
+            Insira os dados do funcionário para realizar o cálculo
+          </p>
+          <label for="">Nome Funcionário</label>
+          <input type="text" id="nome" />
+          <label for="valorHora">Valor Hora</label>
+          <input type="number" name="valorHora" id="valorHora" />
+          <label for="horasTrabalhadas">Total de Horas Trabalhado</label>
+          <input type="number" name="horasTrabalhadas" id="horasTrabalhadas" />
+          <input
+            class="Calcular"
+            type="button"
+            value="Calcular"
+            onclick="salarioTotal()"
+          />
+        </div>
+      </div>
+
+      <div class="questao">
+        <div class="header">
+          <h2>Questão #03:</h2>
+          <p><em>Calcular o consumo médio de um automóvel</em></p>
+          <span>
+            <a
+              href="https://www.urionlinejudge.com.br/repository/UOJ_1014.html"
+              target="_blank"
+              >link da questão</a
+            ></span
+          >
+        </div>
+
+        <div class="dados">
+          <p id="consumoMedio">
+            Insira os dados solicitados para realização do cálculo.
+          </p>
+          <label for="distancia">Distância percorrida</label>
+          <input type="number" id="distancia" />
+          <label for="combustivel">Combustível gasto</label>
+          <input type="number" id="combustivel" />
+          <input
+            class="Calcular"
+            type="button"
+            value="Calcular"
+            onclick="consumoMedio()"
+          />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="copyright">
+        <p>Feito por Marcos Guilherme Silva - Todos os direitos reservados</p>
+      </div>
+      <div class="links">
+        <p>
+          <a href="https://www.github.com/mguilherm">
+            <img
+              src="img/github_icon-icons.com_69253.png"
+              width="50px"
+              weight="50px"
+              ;
+              alt="Github"
+            />Github</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://www.linkedin.com/in/marcos-guilherme-barbosa-da-silva-8313121a4/"
+          >
+            <img
+              src="img/linkedin_icon-icons.com_53609.png"
+              width="50px"
+              weight="50px"
+              ;alt=""
+            />
+            LinkedIn</a
+          >
+        </p>
+        <p>
+          <a href="mailto:marcosguilherme.silva@outlook.com">
+            <img
+              src="img/Outlook_2013_23477.png"
+              width="50px"
+              weight="50px"
+              ;alt=""
+            />
+            Email</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
