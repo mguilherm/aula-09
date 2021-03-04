@@ -1,0 +1,147 @@
+:root {
+    --text: #2b2d42;
+    --background: #eeeeee;
+    --title: #edf2f4;
+    --button: #ef233c;
+    --clickedButton: #d90429;
+    --header: #d90429;
+
+}
+
+body {
+    background-color: e5e5e5;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
+   
+    border: none;
+    width: 95%;
+    padding: 1.1rem;
+    align-content: center;
+    
+}
+.Calcular {
+    
+    background-color: var(--clickedButton);
+    color: var(--title);
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 3rem;
+    transition: 0.5s;
+    font-weight: bolder;
+
+}
+
+
+.Calcular:hover {
+    color: var(--clickedButton);
+    background-color: var(--background);
+}
+
+
+
+h1 {
+    background-color: var(--header);
+    margin: 20 0 0;
+    
+    padding: 3rem;
+    color: var(--title);
+    text-align: right;
+}
+
+.header h2 {
+    color: var(--clickedButton);
+    margin-bottom: 0%;
+}
+
+.header p {
+    color: var(--text);
+    font-size: 1.5rem;
+    margin-top: 0%;
+    margin-bottom: 1.5rem;
+}
+
+.questions {
+    margin: 2rem;
+    display: flex;
+    justify-content:  space-between;
+    padding: 1rem;
+
+    
+}
+
+.questao{
+    background-color:var(--background);
+    padding: 3rem;
+    /* width: 22rem; */
+    box-shadow:  0 0 40px rgba(0,0,0,0.09);
+    margin: 15px;
+   
+}
+
+.dados{
+    margin-top: 1rem;
+    color: var(--text);
+    font-size: 1.2rem;
+ 
+    
+}
+
+.dados p{
+    margin-bottom: 1rem;
+}
+
+
+
+p {
+    margin-bottom: 0%;
+    font-size: 1.3rem;
+}
+
+
+footer {
+    margin-top: 3rem;
+    text-align: right;
+    padding-right: 1.5rem;
+    padding: 2rem;
+    background-color: var(--background);
+
+    display: grid;
+    grid-template-columns: repeat(4) 1fr;
+   
+}
+
+footer p {
+    margin: 0%;
+    font-weight: bolder;
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--text);
+    
+}
+a:hover{
+    color: var(--clickedButton);
+    font-weight: bolder;
+}
+
+.copyright {
+    font-weight: lighter;
+    text-align: center;
+    grid-column-end: 3;
+  
+    
+}
+
+.links {
+    grid-column-start: 4;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    
+    
+}
